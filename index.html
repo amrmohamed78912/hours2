@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق Hours لحساب عدد الساعات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مرحبا بكم في تطبيق</h1>
+        <h2>Hours</h2>
+        <h3>لحساب عدد الساعات</h3>
+        <div class="footer">د.عمرو قطقاط</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>اليوم</th>
+                    <th>وقت الحضور</th>
+                    <th>وقت الانصراف</th>
+                    <th>عدد الساعات</th>
+                </tr>
+            </thead>
+            <tbody id="work-hours-table">
+                <!-- سيتم توليد الصفوف هنا بواسطة JavaScript -->
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <button class="btn-calculate" onclick="calculateTotalHours()">احسب عدد الساعات ل31 يوم</button>
+            <button class="btn-reset" onclick="resetTable()">إعادة التشغيل والحساب مرة أخرى</button>
+        </div>
+        <div class="btn-container">
+            <strong>إجمالي عدد الساعات: </strong><span id="total-hours">0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

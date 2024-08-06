@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* لون خلفية مميز */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* لون مميز لخلفية التطبيق */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h1, h3 {
+    margin: 0;
+}
+h1, h3 {
+    font-weight: bold;
+}
+h2 {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.footer {
+    text-align: right;
+    font-size: 12px;
+    color: #888;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn-reset {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+}
+.btn-calculate {
+    background-color: #4682b4;
+    color: #fff;
+    border: none;
+}
